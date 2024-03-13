@@ -1,4 +1,4 @@
-# align="center" >: Projeto Integrador - Grupo 3 - Igualdade de Gênero
+# align="center">:file_cabinet: Projeto Integrador - Grupo 3 - Igualdade de Gênero
 <h1 align="center">:file_cabinet: Exemplo de README.md</h1>
 
 ## :memo: Descrição
