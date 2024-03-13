@@ -6,8 +6,8 @@ Desenvolvimento do projeto Spring do EWoman. O com.generation.ewoman trabalha a 
 O projeto já é capaz de executar seu database e tabela de categorias.
 
 ## :books: Funcionalidades
-* <b>categoria 1</b>: Classe model, responsável por abrigar os atributos da tabela de categoria (tb_categoria) no banco de dados (db_ewoman).
-* <b>id 2</b>: Chave primária da tabela, é o identificador único de cada categoria.
+* <b>categoria </b>: Classe model, responsável por abrigar os atributos da tabela de categoria (tb_categoria) no banco de dados (db_ewoman).
+* <b>id </b>: Chave primária da tabela, é o identificador único de cada categoria.
 * <b>nome_categoria1</b>: Atributo que associa um nome a cada id/categoria.
 * <b>nivel</b>: Atributo que associa a nivelagem de casa usuário.
 * <b>Métodos Getters e Setters</b>: Principal funcionalidade em garantir a encapsulação e a integridade dos dados.
