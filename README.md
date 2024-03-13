@@ -28,39 +28,29 @@ git clone:https://github.com/EWoman/EWoman
 <table>
   <tr>
     <td align="center">
-      <a href="http://github.com/biancavestibulares">
-        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
+      <a href="#">
+      <a href="#" title="defina o titulo do link">
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
-          <b>Bianca</b>
+          <b>Iuri Silva</b>
         </sub>
       </a>
     </td>
-  </tr>
-</table>
-<table>
-  <tr>
     <td align="center">
-      <a href="http://github.com/devgabrielnascimento">
-        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
+      <a href="#">
+      <a href="#" title="defina o titulo do link">
+        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
-          <b>Gabriel</b>
+          <b>Mark Zuckerberg</b>
         </sub>
       </a>
     </td>
-  </tr>
-</table>
-<table>
-  <tr>
     <td align="center">
-      <a href="http://github.com/MillenaOliveiraSouza">
-        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
+      <a href="#">
+      <a href="#" title="defina o titulo do link">
+        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
-          <b>Millena</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
+          <b>Steve Jobs</b>
 
 ## :dart: Status do projeto
 * Até o momento, o projeto conta com organização DER do seu banco de dados, e com os estágios iniciais do sistema Spring - este que já é capaz de conectar-se com o MySQL e tem sua primeira classe model (categoria) já desenvolvida.
