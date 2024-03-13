@@ -37,5 +37,29 @@ git clone:https://github.com/EWoman/EWoman
     </td>
   </tr>
 </table>
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/devgabrielnascimento">
+        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
+        <sub>
+          <b>Gabriel</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/MillenaOliveiraSouza">
+        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
+        <sub>
+          <b>Millena</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## :dart: Status do projeto
