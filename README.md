@@ -6,7 +6,13 @@ Desenvolvimento do projeto Spring do EWoman. O com.generation.ewoman trabalha a 
 O projeto já é capaz de executar seu database e tabela de categorias.
 
 ## :books: Funcionalidades
-* <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
+* <b>Funcionalidade 1</b>: Categoria: Classe model, responsável por abrigar os atributos da tabela de categoria (tb_categoria) no banco de dados (db_ewoman).
+id: Chave primária da tabela, é o identificador único de cada categoria.
+nome_categoria: Atributo que associa um nome a cada id/categoria.
+nivel: Atributo que associa a nivelagem de casa usuário.
+Métodos Getters e Setters: Principal funcionalidade em garantir a encapsulação e a integridade dos dados.
+application.properties: Propriedades de criação do banco de dados - db_ewoman. Estabelece a conexão MySQL.
+EWomanApplication.java: Ponto de entrada para a aplicação.
 
 ## :wrench: Tecnologias utilizadas
 * Tecnologia;
