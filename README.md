@@ -38,7 +38,7 @@ git clone:https://github.com/EWoman/EWoman
   </tr>
 </table>
 <table>
-  <tr>
+  <br>
     <td align="center">
       <a href="http://github.com/devgabrielnascimento">
         <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
@@ -47,10 +47,10 @@ git clone:https://github.com/EWoman/EWoman
         </sub>
       </a>
     </td>
-  </tr>
+  </br>
 </table>
 <table>
-  <tr>
+  <br>
     <td align="center">
       <a href="http://github.com/MillenaOliveiraSouza">
         <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
@@ -59,7 +59,7 @@ git clone:https://github.com/EWoman/EWoman
         </sub>
       </a>
     </td>
-  </tr>
+  </br>
 </table>
 
 ## :dart: Status do projeto
