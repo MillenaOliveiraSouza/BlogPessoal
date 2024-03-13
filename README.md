@@ -19,10 +19,9 @@ O projeto já é capaz de executar seu database e tabela de categorias.
 
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
-git clone 
-```
-<https://github.com/EWoman/EWoman>
-```
+git clone:
+https://github.com/EWoman/EWoman
+
 
 ## :soon: Implementação futura
 * O que será implementado na próxima sprint?
