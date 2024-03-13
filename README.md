@@ -1,5 +1,5 @@
 # Projeto Integrador - Grupo 3 - Igualdade de Gênero
-<h1 align="center">:file_cabinet: E-WOMAN</h1>
+<h1 align="center">:E-WOMAN</h1>
 
 ## :memo: Descrição
 Escreva uma descrição do seu projeto
