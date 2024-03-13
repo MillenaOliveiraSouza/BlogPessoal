@@ -15,7 +15,7 @@ O projeto já é capaz de executar seu database e tabela de categorias.
 * <b>EWomanApplication.java</b>: Ponto de entrada para a aplicação.
 
 ## :wrench: Tecnologias utilizadas
-* Tecnologia;
+* Spring Boot, Spring Data JPA, MySQL Connector/J, Hibernate;
 
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
