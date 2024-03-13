@@ -2,7 +2,8 @@
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Woman%20Technologist%20Medium%20Skin%20Tone.png" alt="Woman Technologist Medium Skin Tone" width="40" height="35" />E-WOMAN</h1>
 
 ## :memo: Descrição
-Escreva uma descrição do seu projeto
+Desenvolvimento do projeto Spring do EWoman. O com.generation.ewoman trabalha a conexão com o banco de dados MySQL e sua primeira classe model (categoria).
+O projeto já é capaz de executar seu database e tabela de categorias.
 
 ## :books: Funcionalidades
 * <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
