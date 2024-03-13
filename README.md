@@ -1,5 +1,5 @@
 # Projeto Integrador - Grupo 3 - Igualdade de Gênero
-<h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Woman%20Technologist%20Medium%20Skin%20Tone.png" alt="Woman Technologist Medium Skin Tone" width="30" height="30" />E-WOMAN</h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Woman%20Technologist%20Medium%20Skin%20Tone.png" alt="Woman Technologist Medium Skin Tone" width="40" height="35" />E-WOMAN</h1>
 
 ## :memo: Descrição
 Escreva uma descrição do seu projeto
