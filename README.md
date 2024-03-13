@@ -21,7 +21,7 @@ O projeto já é capaz de executar seu database e tabela de categorias.
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 git clone 
 ```
-<https://discord.com/channels/1197214843665666188/1214901048192409600/1217523756575100978>
+<https://github.com/EWoman/EWoman>
 ```
 
 ## :soon: Implementação futura
