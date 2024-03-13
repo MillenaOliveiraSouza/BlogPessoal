@@ -51,6 +51,6 @@ git clone:https://github.com/EWoman/EWoman
         <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
           <b>Steve Jobs</b>
-
+          
 ## :dart: Status do projeto
 * Até o momento, o projeto conta com organização DER do seu banco de dados, e com os estágios iniciais do sistema Spring - este que já é capaz de conectar-se com o MySQL e tem sua primeira classe model (categoria) já desenvolvida.
