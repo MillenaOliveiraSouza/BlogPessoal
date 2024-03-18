@@ -18,65 +18,58 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.generation.blogpessoal.model.Postagem;
-import com.generation.blogpessoal.repository.PostagemRepository;
+import com.generation.blogpessoal.model.Tema;
 import com.generation.blogpessoal.repository.TemaRepository;
 
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/postagens")
+@RequestMapping("/temas")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
-public class PostagemController {
+public class TemaController {
 
-	@Autowired
-	private PostagemRepository postagemRepository;
-	
 	@Autowired
 	private TemaRepository temaRepository;
-
-	@GetMapping
-	public ResponseEntity<List<Postagem>> getAll() {
-		return ResponseEntity.ok(postagemRepository.findAll());
+	
+	@GetMapping 
+	public ResponseEntity<List<Tema>> getAll(){
+		return ResponseEntity.ok(temaRepository.findAll());
 	}
-
-	@GetMapping("/{id}")
-	public ResponseEntity<Postagem> getById(@PathVariable Long id) {
-		return postagemRepository.findById(id)
+	
+	@GetMapping ("/{id}")
+	public ResponseEntity<Tema> getById(@PathVariable Long id){
+		return temaRepository.findById(id)
 				.map(resposta -> ResponseEntity.ok(resposta))
 				.orElse(ResponseEntity.status(HttpStatus.NOT_FOUND).build());
 	}
-
-	@GetMapping("titulo/{titulo}") // http://localhost:8080/postagens/titulo/tecnologia
-	public ResponseEntity<List<Postagem>> getByTitulo(@PathVariable String titulo) {
-		return ResponseEntity.ok(postagemRepository.findAllByTituloContainingIgnoreCase(titulo));
+	
+	@GetMapping("/descricao/{descricao}")
+	public ResponseEntity<List<Tema>> getByTitle(@PathVariable String descricao){
+		return ResponseEntity.ok(temaRepository.findAllByDescricaoContainingIgnoreCase(descricao));
 	}
-
-	@PostMapping // http://localhost:8080/postagens
-	public ResponseEntity<Postagem> post(@Valid @RequestBody Postagem postagem) {
+	
+	@PostMapping 
+	public ResponseEntity<Tema> post(@Valid @RequestBody Tema tema){
 		return ResponseEntity.status(HttpStatus.CREATED)
-				.body(postagemRepository.save(postagem));
+				.body(temaRepository.save(tema));
 	}
-
-	@PutMapping // http://localhost:8080/postagens
-	public ResponseEntity<Postagem> put(@Valid @RequestBody Postagem postagem) {
-		return postagemRepository.findById(postagem.getId())
-				.map(resposta -> ResponseEntity.status(HttpStatus.OK)
-						.body(postagemRepository.save(postagem)))
+	
+	@PutMapping
+	public ResponseEntity<Tema> put(@Valid @RequestBody Tema tema){
+		return temaRepository.findById(tema.getId())
+				.map(resposta -> ResponseEntity.status(HttpStatus.CREATED)
+				.body(temaRepository.save(tema)))
 				.orElse(ResponseEntity.status(HttpStatus.NOT_FOUND).build());
 	}
-
+	
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	@DeleteMapping("/{id}")
 	public void delete(@PathVariable Long id) {
-
-		Optional<Postagem> postagem = postagemRepository.findById(id);
-
-		if (postagem.isEmpty())
+		Optional<Tema> tema = temaRepository.findById(id);
+		
+		if(tema.isEmpty())
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND);
 		
 		temaRepository.deleteById(id);
-
 	}
-
 }
